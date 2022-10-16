@@ -1,0 +1,21 @@
+body{
+    background-image:url(fundo.jpg);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+
+}
+.container{
+    background-color:bisque;
+    border-radius: 10px;
+    margin: auto;
+    width:600px;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+  background-color: deeppink;
+  border-radius: 10px;
+  width: 200px;
+}

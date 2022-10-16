@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> De\Codificador </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class=" container">
+    <h1>De/Codificador</h1>
+    <p> O site tem como objetivo aplicar os conceitos aprendidos e aplicados na proposta de Projeto Individual do Módulo II da Resilia+Senac, e assim codificar e decodificar
+        todas entradas textuais.
+        <br></br>
+        Segundo a codificação da Base64 e Cifra de César
+    </p>
+
+    <p> Escolha um código: </p>
+    <select name="selecao" class="selecao" id="selecao">
+        <option value="selecione" disabled selected>Selecione</option>
+        <option value="base64">Base64</option>
+        <option value="cesar">Cifra de César</option>
+    </select>
+
+    <div class="chaveC" style="display: none;">
+        <label class="chave" for="inc"> Escolha a Chave (1-25) </label>
+            <input type="number" value="1" id="chaveN" min="1" max="26">
+        </div>
+
+       <div class="radios">
+        <div class="radio">
+            <input type="radio" name="codificar" id="cod" value="codificar">
+            <label for="codificar">Codificar</label>
+            <input type="radio" name="codificar" id="decod" value="decodificar">
+            <label for="decodificar">Decodificar</label>
+        </div>
+        <br>
+        <div class="acao">
+            <button>Codificar</button>
+        </div>
+</br>
+<textarea name="textobase" class="base" id="base" cols="30" rows="10" placeholder="Digite aqui o texto a ser codificado..."></textarea>
+<textarea id="resultado" class="resultado" cols="30" rows="10"  placeholder="Resultado"></textarea>
+
+<script src="js/script.js"></script>
+</div>
+
+</body>
+</html>
