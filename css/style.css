@@ -1,16 +1,16 @@
 body{
     background-image:url(fundo.jpg);
     text-align: center;
-    height: 100vh;
     display: flex;
-
+    padding: 20px;
+    height: 100%;
 }
 .container{
     background-color:bisque;
     border-radius: 10px;
     margin: auto;
-    width:600px;
-    height: 100vh;
+    width:800px;
+    height: 750px;
     justify-content: center;
     flex-direction: column;
 }
@@ -18,4 +18,11 @@ button{
   background-color: deeppink;
   border-radius: 10px;
   width: 200px;
+}
+footer{
+    height: 150px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:deeppink;
 }
